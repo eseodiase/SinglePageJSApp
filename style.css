@@ -182,7 +182,7 @@ padding-right:px; /*35px on desktop */
     height:100vh;
     display:none;
     text-align:center;
-    margin-top:80px;
+    margin-top:200px;
 }
 .gallaryPage ul{
     width:100vw;
@@ -290,11 +290,7 @@ padding-right:px; /*35px on desktop */
     position:fixed;
     bottom:25px;
     right:25px;
-    width:35px;
-    height:35px;
-    padding:5px;
-    border-radius:50%;
-    background:#26292e;
+   
 }
 .backToTop a{
     text-decoration:none;
