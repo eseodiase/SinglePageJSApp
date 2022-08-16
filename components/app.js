@@ -3,7 +3,6 @@ import home from "./home.js";
 import about from "./about.js";
 import gallary from "./gallary.js";
 import connect from "./contact.js";
-import gallary from "./gallary.js";
 import footer from "./footer.js";
 
 function jsapp(){
