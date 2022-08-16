@@ -3,44 +3,473 @@
 }
 
 body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+    margin:0;
+    padding:0;
+    background:#eee;
+    color:#26292e;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  background-color: #eee;
+/* header styling*/
+header, nav{
+    width:100vw;
+    margin:0;
+    padding:0;
+    color:#26292e;
+}
+header nav ul{
+width:100vw;
+margin:0;
+padding:0;
+background:#eee;
+top:0;
+position:fixed;
+z-index:9999;
+}
+header nav ul li{
+    display:inline-block ;
+    margin-top:10px;
+    padding:14px;
+    color:#26292e;
+    cursor:pointer;
+}
+header nav ul li a{
+color:#26292e;
+text-decoration:none;
+}
+.connect{
+    border-radius:25px 0px 25px 0px;
+    float:right;
+    margin-right:35px;
+    background:#fff;
+    padding-left:35px;
+    padding-right:35px;
+}
+.dev{
+    display:none;
+}
+.logo{
+    font-weight:bold;
+    color:#B4161B;
+    padding-left:35px;
+}
+.logo:hover{
+    background:none;
+}
+.menu_bar{
+    position:fixed;
+    display:none;
+}
+header .drink{
+    margin:0;
+    position:fixed;
+    top:0;
+    width:100vw;
+    background:#eee;
+    padding:35px 0px 20px 80px ;
 }
 
-nav a {
-  display: inline-block;
-  min-width: 9rem;
-  padding: 0.5rem;
-  border-radius: 0.2rem;
-  border: solid 1px #aaa;
-  text-align: center;
-  text-decoration: none;
-  color: #555;
+/* home page styling*/
+.homePage{
+    width:100vw;
+    height:100vh;
+    margin-top:60px;
+    padding:0;
+    margin-bottom:100px;
+}
+.part1, .part2, .part3{
+    display:inline-block;
+    height:50vh;
+    margin:0;
+    padding:0;
+}
+.part1{
+    width:67.5vw;       
+    height:500px;
+    background:url("https://eseodiase.github.io/checking/desktop.png");
+}
+.within_part1{ 
+  width:40vw;  
+}
+.part3{
+    width:22.5;
+    text-align:left;
+} 
+.part1{
+    padding-left:35px;
+}
+.part2{ /* removed */}
+.forAction{
+    margin-top:30px;
+}
+.action{
+    border-radius:25px 0px 25px 0px;
+    background:#26292e;
+    color:#fff;
+    padding:14px 50px 14px 50px;
+}
+.desktopHeading{
+    font-size:3.5rem;
+}
+.mobileHeading{
+    display:none;
+}
+.txt_wrap{
+background:transparent;
+padding-right:px; /*35px on desktop */
+}
+.txt_wrap h3{
+    padding-top:px;
+    margin-bottom:-5px;
+}
+.txt_wrap p{
+    font-size:10.5px;
+    font-weight:bold;
+    opacity:0.8;
+}
+.js{
+    text-align:center;
+}
+.box1{
+    padding-left:35px;
+    width:40vw;
+}
+.box2{
+    width:27.5vw;
+}
+.box3{
+    width:22.5vw;
+    text-align:left;
+}
+.box1, .box2, .box3{
+    display:inline-block 
+}
+.fa{
+    padding:4px;
+    font-size:20px;
+}
+/* about page styling */
+.aboutPage{
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display:none;
+    margin-top:70px;
+    margin-bottom:175px;
+}
+.aboutBGimg, .article{
+    width:100vw;
+    display:block;
+}
+.aboutBGimg{
+    height:35vh;
+}
+.article{
+    background:#fff;
+    height:65vh;
+    padding-bottom:100px;
+}
+.article h3{
+    padding-top:18px;
+}
+.article h3, article{
+    margin:18px;
+}
+/* gallary styling*/
+.gallaryPage{
+    width:100vw;
+    height:100vh;
+    display:none;
+    text-align:center;
+    margin-top:80px;
+}
+.gallaryPage ul{
+    width:100vw;
+    margin:0;
+    padding:0;
+}
+.gallaryPage ul li{
+    display:inline-block;
+    padding:14px;
+    background:#26292e;
+    color:#fff;
+    border-radius:5px;
+}
+#all{
+    background:#B4161B;
+}
+.cards{
+    width:100vw;
+    margin:0;
+    padding:0;
+    text-align:center ;
+     margin-bottom:158px;
+}
+.card{
+    display:block ;
+    width:;
+    height:500px;
+    background:#eee;
+    color:#26292e;
+    border-radius:10px;
+    margin:18px 150px 18px 150px;
+    box-shadow:1.5px 8px 8px 0.1px #b7b7b7;
+}
+.card h1{
+    font-size:6rem;
+    padding-top:120px;
+}
+/* connect/contact us styling */
+.connectPage{
+    display:none;
+    margin-top:30px;
+    height:100vh;
+              width:100vw;
+               margin:0;
+            padding:0;
+}
+ .connectPage .container{
+            text-align:center;
+            position:;
+              width:100vw;
+               margin:0;
+            padding:0;
+            bottom: 0;
+        }
+        .connectPart1{
+            display:block;
+             height:vh;
+            margin:0;
+        }
+        .connectPart1{
+            width:vw;
+            transition:width 3s;
+          -webkit-transition:width 3s;
+        }
+            .connectPart1 form{
+                padding-top:70px;
+                font-size:px;
+            }
+            input{
+            background:transparent;
+            border:none;
+            width: 280px;
+            padding:20px 0px 0px 4px;
+            margin-bottom:0;
+        }
+        textarea{
+            background:transparent;
+            border:none;
+            width: 330px;
+        }
+        .connectPart1 form hr{
+            width:330px;
+            border:0.1px solid #26292e;
+            margin-top:4px;
+        }
+        
+        .submit{
+            background:#26292e;
+            padding:14px ;
+            width :280px;
+            border-radius:25px;
+            border:none;
+            margin:10px;
+            color:#fff;
+            font-size: 14px;
+            box-shadow:1.5px 8px 8px 0.1px #b7b7b7;
+        }
+.submit:hover{
+    background:#B4161B;
+}
+        
+/* back to top styling */
+.backToTop{
+    display:none;
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:35px;
+    height:35px;
+    padding:5px;
+    border-radius:50%;
+    background:#26292e;
+}
+.backToTop a{
+    text-decoration:none;
+    color:#fff;
+    font-size:30px;
+    margin-top:-5px;
+    right:9px;
+    position:absolute ;
+}
+/* footer styling */
+.allFooter, .home_bottom{
+display:none;
+    width:100vw;
+    height:25vh;
+    text-align:center;
+    bottom:0;
+    position:fixed;
+    margin-top:100px;
+    background:#B4161B;
+    color:#fff;
+    background:-webkit-linear-gradient(top, #B4161B, #26292e);
+    background:-moz-linear-gradient(top, #B4161B, #26292e);
+}
+.allFooter a, .home_bottom a{
+    text-decoration:none;
+    color:#b7b7b7;
+    font-weight:bold;
+}
+.footer_head{
+    padding-top:35px;
+}
+@media (max-width:420px){
+/* header styling*/
+    header, nav{
+    width:65vw;
+    margin:0;
+    padding:0;
+}
+header nav ul{
+width:65vw;
+height:200vh; /* increase as page increases. */
+position:fixed;
+margin:0;
+padding:0;
+background:#26292e;
+display:none;
+}
+header nav ul li{
+    display:block;
+    padding:14px;
+    color:#fff;
+}
+header nav ul li a{
+color:#fff
+}
+header nav ul li:hover{
+  color:#26292e;  
+  background:#B4161B;
+}
+.connect{
+    border:none;
+    border-radius:0;
+    float:none;
+    margin-right:0;
+    background:none;
+    padding:14px;
+
+}
+.logo, .logo:hover{
+    color:#B4161B;  
+    background:transparent;
+    padding:14px;
+}
+.dev{
+    display:block;
+    position:fixed;
+    bottom:30px;
+    left:16vw;
+    text-align:center;
+}
+.dev:hover{ 
+    background:none;
+    color:#fff;
+}
+.menu_bar{ 
+    top:15px;
+    display:block;
+    margin:10px 0px 0px 20px;
+    font-size:30px;
+    font-weight:bold;
+    border:0.6px solid #26292e;
+    padding:0px 8px 0px 8px;
+    border-radius:5px;
+}
+nav:hover ul{
+    display:block;
 }
 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+/* home page styling*/
+.homePage{
+    margin:0;
+    text-align:center;
+}
+.part1{
+  background:url("https://eseodiase.github.io/checking/home_bg.png");
+}
+.part1, .part3{
+display:block;
+width:100vw;
+height:80vh;
+padding-left:0;
+}
+.within_part1{ 
+  width:100vw;  
+}
+.part2{ /* removed */}
+.part3{
+    text-align:center;
+    height:40vh;
+    margin-bottom:150px;
+}
+.part1 h1{
+    margin-top:100px;
+}
+.heroTxt{
+    padding:0px 20px 0px 20px;
+}
+.desktopHeading{
+    display:none;
+}
+.mobileHeading{
+    display:block;
+    font-size:3rem;
+    padding-left:10px;
+    padding-right:10px;
+}
+.txt_wrap{
+height:200px;
+width:100vw;
+box-shadow:1.5px 8px 8px 0.1px #b7b7b7;
+text-align:center;
+padding-right:0;
+}
+.js{
+    padding-right:0;
+    padding-top:40px;
+}
+.box1, .box2, .box3{
+    display:none;
 }
 
-main {
-  padding: 1rem;
+/*about styling*/
+
+/* gallary styling*/
+.gallaryPage ul{
+    margin-top:20px;
+}
+.card{
+    height:300px;
+    margin:18px 50px 18px 50px;
+}
+.card h1{
+    font-size:4rem;
+    padding-top:40px;
+}
+.backToTop{
+    display:block;
+    z-index:9999;
+}
+/*footer*/
+
+.home_bottom{
+    display:block;
+    position:relative;
+    margin-top:246px;
+}
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
