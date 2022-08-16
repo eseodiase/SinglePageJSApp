@@ -10,7 +10,7 @@ function jsapp(){
 "use strict";
 
 document.querySelector(".header").innerHTML = ( header() );
-document.querySelector(".main").innerHTML = ( home() + about() + gallery() + connect() );
+document.querySelector(".main").innerHTML = ( home() + about() + gallary() + connect() );
 document.querySelector(".footer").innerHTML = ( footer () );
 };
 
