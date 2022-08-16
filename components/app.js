@@ -11,7 +11,7 @@ function jsapp(){
 
 document.querySelector(".header").innerHTML = ( header() );
 document.querySelector(".main").innerHTML = ( home() + about() + gallery() + connect() );
-document.querySelecto(".footer"). innerHTML = ( footer () );
+document.querySelector(".footer").innerHTML = ( footer () );
 };
 
 export default jsapp;
