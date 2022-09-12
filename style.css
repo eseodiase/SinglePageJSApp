@@ -146,6 +146,7 @@ background:transparent;
 }
 .box1, .box2, .box3{
     display:inline-block 
+    background: #B4161B;
 }
 .fa{
     padding:4px;
