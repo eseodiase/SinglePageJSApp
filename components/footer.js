@@ -1,5 +1,6 @@
 const footer = () =>{
-    return `<section class="allFooter">
+    return `<div class="allFooter">
+    
            <div class="footer_head">
             <i class="fa fa-twitter"></i>
             <i class="fa fa-instagram"></i>
@@ -11,6 +12,7 @@ const footer = () =>{
         <div class="footer_bottom">
     <p> Developed by <a href="">Ese Odiase</a></p>
         </div>
-</section>`;
+        
+</div>`;
 };
 export default footer;
