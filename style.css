@@ -122,7 +122,7 @@ header .title{
 background:transparent;
 }
 .txt_wrap h3{
-    padding-top:px;
+    text-align: center;
     margin-bottom:-5px;
 }
 .txt_wrap p{
