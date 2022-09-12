@@ -1,13 +1,15 @@
-const gallary = () =>{
-    const gallary_Page_Compound_Values ={
+import footer from "./footer.js";
+
+const gallery = () =>{
+    const gallery_Page_Compound_Values ={
       l1: "All",
       l2: "JavaScript",
       l3: "ECMAScript",
       l4: "TypeScript",
     };
-    const gal= gallary_Page_Compound_Values;
-    return `<section class="gallaryPage">
-    <h3> Scripts Gallary</h3>
+    const gal= gallery_Page_Compound_Values;
+    return `<section class="galleryPage">
+    <h3> Scripts Gallery</h3>
     <ul>
         <li id="all">${gal.l1}</li>
         <li class="JavaScript">${gal.l2}</li>
@@ -37,6 +39,7 @@ const gallary = () =>{
     </div>
     </div>
     </div>
+
     <div class="tsCard">
     <div class="card">
     <div>
@@ -97,7 +100,12 @@ const gallary = () =>{
     </div>
         
     </div>
-   
-</section>`;
+    
+    <section class="gallery_bottom"></section>
+ 
+ </section>`;
+
+document.querySelector(".gallery_bottom").innerHTML = (footer());
+
 };
-export default gallary;
+export default gallery;
