@@ -12,7 +12,7 @@ const abt = about_Page_Compound_Values;
           
              <div class=${abt.ofImg}>
              <figure>
-           <img src="https://eseodiase.github.io/SinglePageJSApp/images/about Us.jpg" alt="Image used for about us" height="212px" width="100%"/>
+           <img src="images/about Us.jpg" alt="Image used for about us" height="212px" width="100%"/>
            <figcaption>
            <a href="https://www.freepik.com/vectors/javascript">Javascript vector created by vectorjuice.
            </a>
