@@ -88,7 +88,7 @@ header .title{
 .part1{
     width:67.5vw;       
     height:500px;
-    background:url("https://eseodiase.github.io/SinglePageJSApp/images/JS_App.png")no-repeat;
+    background:url("/images/JS_App.png")no-repeat;
     background-position: ;
     background-size: 110%;
 }
@@ -425,7 +425,7 @@ nav:hover ul{
     text-align:center;
 }
 .part1{
-  background:url("https://eseodiase.github.io/SinglePageJSApp/images/JS_App.png")no-repeat;
+  background:url("/images/JS_App.png")no-repeat;
   background-clip: content-box;
  background-size: 170%;
 }
