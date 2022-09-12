@@ -88,8 +88,7 @@ header .title{
 .part1{
     width:67.5vw;       
     height:500px;
-    background:url('images/JS_App.png')no-repeat;
-    background-position: ;
+    background:url('images/jsApp.png')no-repeat;
     background-size: 110%;
 }
 .within_part1{ 
@@ -425,9 +424,10 @@ nav:hover ul{
     text-align:center;
 }
 .part1{
-  background:url('images/JS_App.png')no-repeat;
+  background:url('images/jsApp.png')no-repeat;
   background-clip: content-box;
- background-size: 170%;
+  background-position: center top;
+  background-size: 170%;
 }
 .part1, .part3{
 display:block;
