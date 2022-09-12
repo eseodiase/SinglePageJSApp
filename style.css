@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
     margin:0;
     padding:0;
@@ -37,6 +33,11 @@ header nav ul li a{
 color:#26292e;
 text-decoration:none;
 }
+
+header nav ul li .fa{
+   display: none;
+}
+
 .connect{
     border-radius:25px 0px 25px 0px;
     float:right;
@@ -59,23 +60,24 @@ text-decoration:none;
 .menu_bar{
     position:fixed;
     display:none;
+    z-index:9999;
 }
-header .drink{
+header .title{
     margin:0;
     position:fixed;
     top:0;
     width:100vw;
     background:#eee;
     padding:35px 0px 20px 80px ;
+    z-index: 9999;
 }
 
 /* home page styling*/
 .homePage{
     width:100vw;
     height:100vh;
-    margin-top:60px;
+    margin-top:55px;
     padding:0;
-    margin-bottom:100px;
 }
 .part1, .part2, .part3{
     display:inline-block;
@@ -86,19 +88,22 @@ header .drink{
 .part1{
     width:67.5vw;       
     height:500px;
-    background:url("https://eseodiase.github.io/checking/desktop.png");
+    background:url("https://eseodiase.github.io/SinglePageJSApp/images/JS_App.png")no-repeat;
+    background-position: ;
+    background-size: 110%;
 }
 .within_part1{ 
   width:40vw;  
 }
 .part3{
-    width:22.5;
+    width:22.5vw;
     text-align:left;
 } 
 .part1{
     padding-left:35px;
 }
 .part2{ /* removed */}
+
 .forAction{
     margin-top:30px;
 }
@@ -116,7 +121,6 @@ header .drink{
 }
 .txt_wrap{
 background:transparent;
-padding-right:px; /*35px on desktop */
 }
 .txt_wrap h3{
     padding-top:px;
@@ -147,6 +151,7 @@ padding-right:px; /*35px on desktop */
 .fa{
     padding:4px;
     font-size:20px;
+    cursor: pointer;
 }
 /* about page styling */
 .aboutPage{
@@ -155,19 +160,30 @@ padding-right:px; /*35px on desktop */
     margin:0;
     padding:0;
     display:none;
-    margin-top:70px;
-    margin-bottom:175px;
+    margin-top:74px;
+    margin-bottom:145px;
 }
 .aboutBGimg, .article{
     width:100vw;
     display:block;
 }
+figure{
+    z-index: -1;
+    text-align: center;
+}
+figcaption a{
+    color: #26292e;
+    text-decoration: none;
+}
 .aboutBGimg{
     height:35vh;
+    margin-bottom: 0;
+    position: relative;
 }
 .article{
+    margin-top: 0;
     background:#fff;
-    height:65vh;
+    height:100vh;
     padding-bottom:100px;
 }
 .article h3{
@@ -176,20 +192,21 @@ padding-right:px; /*35px on desktop */
 .article h3, article{
     margin:18px;
 }
-/* gallary styling*/
-.gallaryPage{
+/* gallery styling*/
+.galleryPage{
     width:100vw;
     height:100vh;
     display:none;
     text-align:center;
     margin-top:80px;
+    margin-bottom:80px;
 }
-.gallaryPage ul{
+.galleryPage ul{
     width:100vw;
     margin:0;
     padding:0;
 }
-.gallaryPage ul li{
+.galleryPage ul li{
     display:inline-block;
     padding:14px;
     background:#26292e;
@@ -204,11 +221,10 @@ padding-right:px; /*35px on desktop */
     margin:0;
     padding:0;
     text-align:center ;
-     margin-bottom:158px;
+    margin-bottom:0px;
 }
 .card{
     display:block ;
-    width:;
     height:500px;
     background:#eee;
     color:#26292e;
@@ -220,7 +236,7 @@ padding-right:px; /*35px on desktop */
     font-size:6rem;
     padding-top:120px;
 }
-/* connect/contact us styling */
+/* connect/contact page styling */
 .connectPage{
     display:none;
     margin-top:30px;
@@ -237,17 +253,17 @@ padding-right:px; /*35px on desktop */
             padding:0;
             bottom: 0;
         }
-        .connectPart1{
+        .container{
             display:block;
              height:vh;
             margin:0;
         }
-        .connectPart1{
+        .container{
             width:vw;
             transition:width 3s;
           -webkit-transition:width 3s;
         }
-            .connectPart1 form{
+            .container form{
                 padding-top:70px;
                 font-size:px;
             }
@@ -261,9 +277,17 @@ padding-right:px; /*35px on desktop */
         textarea{
             background:transparent;
             border:none;
-            width: 330px;
+            width: 280px;
+            margin-left: 28px;
+            padding-top: 20px;
+            margin-bottom:-18px;
         }
-        .connectPart1 form hr{
+        .txtA{
+            padding-top: 16px;
+            position: absolute;
+            z-index: -1;
+        }
+        .container form hr{
             width:330px;
             border:0.1px solid #26292e;
             margin-top:4px;
@@ -275,7 +299,7 @@ padding-right:px; /*35px on desktop */
             width :280px;
             border-radius:25px;
             border:none;
-            margin:10px;
+            margin:10px 10px 100px 10px;
             color:#fff;
             font-size: 14px;
             box-shadow:1.5px 8px 8px 0.1px #b7b7b7;
@@ -290,31 +314,33 @@ padding-right:px; /*35px on desktop */
     position:fixed;
     bottom:25px;
     right:25px;
-   
+    width:35px;
+    height:35px;
+    padding:5px;
+    border-radius:50%;
+    background:#26292e;
+    text-align: center;
 }
 .backToTop a{
     text-decoration:none;
     color:#fff;
-    font-size:30px;
-    margin-top:-5px;
-    right:9px;
-    position:absolute ;
+    font-size:20px;
 }
 /* footer styling */
-.allFooter, .home_bottom{
+.allFooter, .home_bottom, .gallery_bottom{
 display:none;
     width:100vw;
-    height:25vh;
+    height:150px;
     text-align:center;
     bottom:0;
     position:fixed;
-    margin-top:300px;
+    margin-top:100px;
     background:#B4161B;
     color:#fff;
     background:-webkit-linear-gradient(top, #B4161B, #26292e);
     background:-moz-linear-gradient(top, #B4161B, #26292e);
 }
-.allFooter a, .home_bottom a{
+.allFooter a, .home_bottom a, .gallery_bottom a{
     text-decoration:none;
     color:#b7b7b7;
     font-weight:bold;
@@ -331,7 +357,7 @@ display:none;
 }
 header nav ul{
 width:65vw;
-height:200vh; /* increase as page increases. */
+height:100vh; 
 position:fixed;
 margin:0;
 padding:0;
@@ -350,6 +376,10 @@ header nav ul li:hover{
   color:#26292e;  
   background:#B4161B;
 }
+header nav ul li .fa{
+    display: inline-block;
+   margin:0px 10px 0px 0px;
+}
 .connect{
     border:none;
     border-radius:0;
@@ -362,7 +392,7 @@ header nav ul li:hover{
 .logo, .logo:hover{
     color:#B4161B;  
     background:transparent;
-    padding:14px;
+    padding:14px 14px 14px 16px;
 }
 .dev{
     display:block;
@@ -395,7 +425,9 @@ nav:hover ul{
     text-align:center;
 }
 .part1{
-  background:url("https://eseodiase.github.io/checking/home_bg.png");
+  background:url("https://eseodiase.github.io/SinglePageJSApp/images/JS_App.png")no-repeat;
+  background-clip: content-box;
+ background-size: 170%;
 }
 .part1, .part3{
 display:block;
@@ -407,6 +439,7 @@ padding-left:0;
   width:100vw;  
 }
 .part2{ /* removed */}
+
 .part3{
     text-align:center;
     height:40vh;
@@ -444,8 +477,8 @@ padding-right:0;
 
 /*about styling*/
 
-/* gallary styling*/
-.gallaryPage ul{
+/* gallery styling*/
+.galleryPage ul{
     margin-top:20px;
 }
 .card{
@@ -461,11 +494,13 @@ padding-right:0;
     z-index:9999;
 }
 /*footer*/
-
-.home_bottom{
+.home_bottom, .gallery_bottom{
     display:block;
     position:relative;
-    margin-top:246px;
+    margin-top:212px;
 }
+.gallery_bottom{
+margin-top:60px;    
 }
 
+}
