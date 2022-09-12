@@ -1,7 +1,6 @@
 const header = () => {
 "use strict";
 const allObjectsUsedOnHeader = {
-//I am using global variables, so I can access them anywere.
 
 //Navigation List
 l1: "JS App",
@@ -17,23 +16,39 @@ url: "https://www.eseodiase.eth",
 //icon:
 bar: "&#9552;",
 
-//className here:
+//className:
 mobile: "menu_bar",
 
 };
 const all = allObjectsUsedOnHeader;
 
-    return `  <section class="header">
-      <span class="drink">JS App</span>
+    return `<section class="header">
+      <span class="title">JS App</span>
     <nav>
     <div class=${all.mobile}>${all.bar}</div>
   
     <ul>
     <li class="logo">${all.l1}</li>
-<li class="home"><a href="#">${all.l2}</a></li>
-<li class="about"><a href="#">${all.l3}</a></li>
-<li class="scripts"><a href="#">${all.l4}</a></li>
-<li class="connect"><a href="#">${all.l5}</a></li>
+<li class="home">
+<i class="fa fa-home"></i>
+<a href="#">${all.l2}</a>
+</li>
+
+<li class="about">
+<i class="fa fa-group"></i>
+<a href="#">${all.l3}</a>
+</li>
+
+<li class="scripts">
+<i class="fa fa-code"></i>
+<a href="#">${all.l4}</a>
+</li>
+
+<li class="connect">
+<i class="fa fa-envelope"></i>
+<a href="#">${all.l5}</a>
+</li>
+
     <li class="dev"><img src="" alt="Dev"/>
     <br/>
     Developed by
@@ -41,9 +56,15 @@ const all = allObjectsUsedOnHeader;
     <a href=${all.url}>${all.l6}</a>
     </li>  
     </ul>
+    
     </nav>
- <span class="backToTop"><a href="#"><i class="fa fa-chevron-up"></i></a></span>
-    </section>`;
+    
+ <span class="backToTop">
+ <a href="#">
+ <i class="fa fa-chevron-up"></i>
+ </a>
+ </span>
+ 
+           </section>`;
 };
-
 export default header;
