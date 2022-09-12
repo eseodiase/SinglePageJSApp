@@ -58,7 +58,7 @@ const texts = everyTextsUsedInsideHomePage;
                
 <div class=${texts.wrap2}>
 <h3 class="js">{}</h3>
-<h3>${texts.subHeading1}</h3>
+<h3 class="sub">${texts.subHeading1}</h3>
 <p>
   var name = "JS App"; <br/>{<br/> console.log(name)<br/>};
 </p>
@@ -66,7 +66,7 @@ const texts = everyTextsUsedInsideHomePage;
                 
 <div class="txt_wrap">  
 <h3 class="js">[]</h3> 
-<h3>${texts.subHeading2}</h3>
+<h3 class="sub">${texts.subHeading2}</h3>
 <p>
 let arr = []; <br/>
 arr[0] = "ECMAScript"; <br/>
@@ -77,7 +77,7 @@ console.log(arr[1]);
                 
 <div class="txt_wrap">  
 <h3 class="js">()</h3> 
-<h3>${texts.subHeading3}</h3>
+<h3 class="sub">${texts.subHeading3}</h3>
 <p>
 const name = "JavaScript";<br/>
 const re_name = name.replace<br/>("JavaScript", "JS App");<br/>
