@@ -45,7 +45,7 @@ const gallery = () =>{
     <div>
     <h1>TS</h1>
     <h3>Statically Typed</h3>   
-    <p>Let cell: Number = 08100000000;</p>
+    <p>let cell: number = 08100000000;</p>
     </div>
     </div>
     </div>
@@ -78,9 +78,9 @@ const gallery = () =>{
     <div>
     <h1>TS</h1>
     <h3>Enum Values</h3>   
-    <p>enum Weekend{    
-    <br/> daySix: "Friday";<br/>
-          daySeven: "Saturday";
+    <p>enum weekEnd{    
+    <br/> DAYSIX = "Friday",<br/>
+          DAYSEVEN = "Saturday";
           <br/> };
     </p>
     </div>
