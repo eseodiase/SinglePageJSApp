@@ -80,7 +80,7 @@ const gallery = () =>{
     <h3>Enum Values</h3>   
     <p>enum weekEnd{    
     <br/> DAYSIX = "Friday",<br/>
-          DAYSEVEN = "Saturday";
+          DAYSEVEN = "Saturday"
           <br/> };
     </p>
     </div>
