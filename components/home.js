@@ -57,7 +57,7 @@ const texts = everyTextsUsedInsideHomePage;
 <div class=${texts.div3}>
                
 <div class=${texts.wrap2}>
-<h3>{}</h3>
+<h3 class="js">{}</h3>
 <h3>${texts.subHeading1}</h3>
 <p>
   var name = "JS App"; <br/>{<br/> console.log(name)<br/>};
@@ -65,7 +65,7 @@ const texts = everyTextsUsedInsideHomePage;
 </div>
                 
 <div class="txt_wrap">  
-<h3>[]</h3> 
+<h3 class="js">[]</h3> 
 <h3>${texts.subHeading2}</h3>
 <p>
 let arr = []; <br/>
@@ -76,7 +76,7 @@ console.log(arr[1]);
 </div>
                 
 <div class="txt_wrap">  
-<h3>()</h3> 
+<h3 class="js">()</h3> 
 <h3>${texts.subHeading3}</h3>
 <p>
 const name = "JavaScript";<br/>
@@ -92,7 +92,7 @@ console.log(re_name);
 <!-- ending of hero_div(part1 & part3 wraps) -->
         
 <!--box 1 to 3 beginning -->      
-          <div>
+          <div class="boxes">
               <div class=${texts.div4}>
                  <p>CREATIVE HASHTAGES:</p>
                  <p>#designbyese</p>
