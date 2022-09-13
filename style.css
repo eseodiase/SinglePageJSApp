@@ -154,8 +154,6 @@ background:transparent;
 }
 .box1, .box2, .box3{
     display:inline-block;
-    background: #B4161B;
-    height:20vh;
 }
 .fa{
     padding:4px;
@@ -510,7 +508,7 @@ padding-right:0;
 .home_bottom, .gallery_bottom{
     display:block;
     position:relative;
-    margin-top:100px;
+    margin-top:80px;
 }
 .gallery_bottom{
 margin-top:60px;    
