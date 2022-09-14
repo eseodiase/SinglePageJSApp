@@ -403,9 +403,11 @@ header nav ul li .fa{
 }
 .dev{
     display:block;
-    position:fixed;
-    bottom:30px;
-    left:6vw;
+    position:absolute;
+    bottom: 0;
+    right:0;
+    left: 0;
+    padding-bottom:30px;
     text-align:center;
 }
 .dev:hover{ 
