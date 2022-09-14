@@ -49,10 +49,10 @@ const all = allObjectsUsedOnHeader;
 <a href="#">${all.l5}</a>
 </li>
 
-    <li class="dev"><img src="" alt="Dev"/>
+     <li class="dev">
+    <img src="https://eseodiase.github.io/new-ese-portfolio/images/avatar.png" alt="Developer" width="50" height="50" style="border-radius:50%; background:#26292e;"/>
     <br/>
     Developed by
-    <br/>
     <a href=${all.url}>${all.l6}</a>
     </li>  
     </ul>
