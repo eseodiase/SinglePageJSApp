@@ -11,7 +11,7 @@ l5: "Connect",
 l6: "Ese Odiase",
 
 //developer's url:
-url: "https://www.eseodiase.eth",
+url: "http://www.eseodiase.website/",
 
 //icon:
 bar: "&#9552;",
