@@ -26,27 +26,6 @@
 <!-- favicon -->
 <link rel="icon" type="image/png" sizes="42x42" href="https://ipfs.fleek.co/ipfs/bafybeifi5pftw2obhnb47nu35zmdazjtbu4xup7sjttam4rdxr57f2bcre">
    
-<scritp>
-    document.addEventListener('contextmenu', event => event.preventDefault());
-    document.onkeydown = function (e) {
-        
-                if(e.keyCode == 123) {
-                            return false;
-                                    }
-        
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
-                            return false;
-                                    }
-        
-                if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-                            return false;
-                                    }
-        
-                if(e.ctrlKey && e.keyCode == 85) {
-                            return false;
-                                    }
-                                   }
-</scritp>
  </head>
     <body>
         
@@ -54,7 +33,7 @@
       <main class="main_content"></main>
       <footer class="theBottom"></footer>
       
-      <script type="module">
+      <script type="module" charset="utf-8">
         import app from "./js_app.js";
         app();
       </scritp>
