@@ -1,18 +1,1 @@
-const footer = () =>{
-    return `<div class="allFooter">
-    
-           <div class="footer_head">
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-whatsapp"></i>
-            <i class="fa fa-github"></i>
-        </div>
-        
-        <div class="footer_bottom">
-    <p> Developed by <a href="">Ese Odiase</a></p>
-        </div>
-        
-</div>`;
-};
-export default footer;
+(function(_0x41af63,_0x4c555c){const _0x328774=_0x348a,_0x4efa46=_0x41af63();while(!![]){try{const _0x438d1b=-parseInt(_0x328774(0x75))/0x1*(parseInt(_0x328774(0x71))/0x2)+-parseInt(_0x328774(0x6b))/0x3*(parseInt(_0x328774(0x6c))/0x4)+-parseInt(_0x328774(0x70))/0x5+parseInt(_0x328774(0x6e))/0x6+-parseInt(_0x328774(0x74))/0x7+parseInt(_0x328774(0x6f))/0x8*(parseInt(_0x328774(0x76))/0x9)+parseInt(_0x328774(0x73))/0xa*(parseInt(_0x328774(0x6d))/0xb);if(_0x438d1b===_0x4c555c)break;else _0x4efa46['push'](_0x4efa46['shift']());}catch(_0x8c7046){_0x4efa46['push'](_0x4efa46['shift']());}}}(_0x2035,0x3c970));function _0x348a(_0x203573,_0x50b31f){const _0x2035ec=_0x2035();return _0x348a=function(_0x348a44,_0xc8efe3){_0x348a44=_0x348a44-0x6b;let _0x424ddd=_0x2035ec[_0x348a44];return _0x424ddd;},_0x348a(_0x203573,_0x50b31f);}function _0x2035(){const _0x446c70=['77vHncay','18McmgKb','15gtlabb','128724GPBFMV','9064axLKyd','2858058ZAenwx','922696RWPCeg','712475JDyEBM','5636KjFOTw','<div\x20class=\x22allFooter\x22>\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22footer_head\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-twitter\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-instagram\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-youtube\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-whatsapp\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fa\x20fa-github\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22footer_bottom\x22>\x0a\x20\x20\x20\x20<p>\x20Developed\x20by\x20<a\x20href=\x22http://www.eseodiase.website/\x22>Ese\x20Odiase</a></p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a</div>','2010XNQUrZ','728553SYohtC'];_0x2035=function(){return _0x446c70;};return _0x2035();}const footer=()=>{const _0x5d639b=_0x348a;return _0x5d639b(0x72);};export default footer;
