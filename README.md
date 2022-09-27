@@ -18,7 +18,7 @@ EXAMPLE: to go from 'home page' to 'about page' or other pages, users do not nee
 
 LICENSE: BSD 2-Clause "Simplified" License,
 
-INSPIRATION: ... developers first encounter with React JS between 04/07/2022 to 27/07/2022,
+INSPIRATION: ... developer's first encounter with React JS between 04/07/2022 to 27/07/2022,
 
 CONTRIBUTORS: none,
 
