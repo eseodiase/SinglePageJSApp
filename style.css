@@ -412,6 +412,7 @@ header nav ul li .fa{
     left: 0;
     padding-bottom:30px;
     text-align:center;
+    font-size: 12px;
 }
 .dev:hover{ 
     background:none;
