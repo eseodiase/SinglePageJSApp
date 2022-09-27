@@ -8,7 +8,7 @@ DESCRIPTION: JS App is a simple static website theme consisting of four (4) page
 1. Home,
 2. About,
 3. Gallery,
-4. Contact
+4. Contact, 
 all built as separate components.
 
 With DOM manipulations, these components/pages were put together as a single page JavaScript application and are accessed with fast speed.
