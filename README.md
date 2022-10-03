@@ -14,7 +14,7 @@ Gallery,
 
 Contact,
 
-all built as separate components, not individual pages but get updated on the index.html as different pages.
+all built as separate components and get updated on the index.html as different pages.
 
 With DOM manipulations, these components/pages were put together as a single page JavaScript application and are accessed with fast speed.
 
