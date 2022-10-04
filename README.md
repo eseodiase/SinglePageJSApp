@@ -31,3 +31,10 @@ DEVELOPER: Ese Odiase,
 URL: https://www.eseodiase.website/
 
 VIEW DEMO: https://ipfs.fleek.co/ipfs/QmcxywYKS7noA16VtTiCjeN6rjSnpatAL2fKoggf2QjmJn/
+
+CREATIVE HASHTAGS:
+
+#WebAppNFTs
+#ProgrammingCodeNFTs
+#designbyese 
+#developedbyese
